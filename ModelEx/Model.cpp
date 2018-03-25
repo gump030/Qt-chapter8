@@ -21,19 +21,10 @@ ModelEx::ModelEx(QObject *parent) :
 
 void ModelEx::populateModel()
 {
-	header.append(tr("军种"));
-	header.append(tr("种类"));
-	header.append(tr("武器"));
+	header << tr("军种") << tr("种类") << tr("武器");
 	army << 1 << 2 << 3 << 4 << 2 << 4 << 3 << 1;
 	weaponType << 1 << 3 << 5 << 7 << 4 << 8 << 6 << 2;
-	weapon.append(tr("B-2"));
-	weapon.append(tr("尼米兹级"));
-	weapon.append(tr("阿帕奇"));
-	weapon.append(tr("黄蜂"));
-	weapon.append(tr("阿利伯克"));
-	weapon.append(tr("AAAV"));
-	weapon.append(tr("M1A1"));
-	weapon.append(tr("F-22"));
+	weapon << tr("B-2") << tr("尼米兹级") << tr("阿帕奇") << tr("黄蜂级") << tr("阿利伯克级") << tr("AAAV") << tr("M1A1") << tr("F-22");
 }
 
 int ModelEx::columnCount(const QModelIndex &parent) const

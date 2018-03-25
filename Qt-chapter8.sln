@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirModeEx", "DirModeEx\DirM
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelEx", "ModelEx\ModelEx.vcxproj", "{553832E8-E9B0-4850-B71A-400F747445B7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ViewEx", "ViewEx\ViewEx.vcxproj", "{4B1AAA31-3379-48E9-B887-B3F981BBDFB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{553832E8-E9B0-4850-B71A-400F747445B7}.Debug|x64.Build.0 = Debug|x64
 		{553832E8-E9B0-4850-B71A-400F747445B7}.Release|x64.ActiveCfg = Release|x64
 		{553832E8-E9B0-4850-B71A-400F747445B7}.Release|x64.Build.0 = Release|x64
+		{4B1AAA31-3379-48E9-B887-B3F981BBDFB2}.Debug|x64.ActiveCfg = Debug|x64
+		{4B1AAA31-3379-48E9-B887-B3F981BBDFB2}.Debug|x64.Build.0 = Debug|x64
+		{4B1AAA31-3379-48E9-B887-B3F981BBDFB2}.Release|x64.ActiveCfg = Release|x64
+		{4B1AAA31-3379-48E9-B887-B3F981BBDFB2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
